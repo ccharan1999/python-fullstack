@@ -1,2 +1,16 @@
-print("hi,world my name is charan")
-print("i am learning python fullstack")
+##print("hi,world my name is charan")
+##print("i am learning python fullstack")
+car =float("90.56")
+print(type(int(car)))
+print(car)
+print(car * car)
+print(str(car*car + 1.10))
+
+print(round(car))
+van = "carcarcar"
+print(van * 3)
+bus = (van + "55")
+print (bus)
+print(type(bus),type(car),type(van))
+bmw=(isinstance(bus,int))
+print ((bmw * True)+ car)
